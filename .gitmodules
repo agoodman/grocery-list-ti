@@ -1,0 +1,3 @@
+[submodule "app/assets/serviceable"]
+	path = app/assets/serviceable
+	url = git@github.com:agoodman/serviceable-ti.git
