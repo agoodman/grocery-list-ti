@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="itemIndex">
+		<View id="nav">
+			<Label id="lblTitle">Items</Label>
+			<View id="btnAdd">
+				<Label id="lblAdd">Add Item</Label>
+			</View>
+		</View>
+		<TableView id="items" />
+	</Window>
+</Alloy>

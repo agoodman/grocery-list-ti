@@ -1,0 +1,29 @@
+"#nav" : {
+	top: 0,
+	height: 64,
+	left: 0,
+	right: 0,
+	background: "#404040",
+}
+
+"#lblTitle" : {
+	height: 64,
+	color: "#ffffff",
+}
+
+"#btnAdd" : {
+	right: 0,
+	height: 64,
+	width: 64,
+}
+
+"#lblAdd" : {
+	color: "#ffffff",
+}
+
+"#items" : {
+	top: 64,
+	bottom: 0,
+	left: 0,
+	right: 0,
+}

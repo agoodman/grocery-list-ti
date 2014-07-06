@@ -1,5 +1,2 @@
-function doClick(e) {
-    alert($.label.text);
-}
-
-$.index.open();
+var tItemIndex = Alloy.createController('itemIndex');
+tItemIndex.getView().open();

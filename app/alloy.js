@@ -1,11 +1,27 @@
-// The contents of this file will be executed before any of
-// your view controllers are ever executed, including the index.
-// You have access to all functionality on the `Alloy` namespace.
-//
-// This is a great place to do any initialization for your app
-// or create any global variables/functions that you'd like to
-// make available throughout your app. You can easily make things
-// accessible globally by attaching them to the `Alloy.Globals`
-// object. For example:
-//
-// Alloy.Globals.someGlobalFunction = function(){};
+var Sync = require('serviceable/lib/serviceable');
+
+Sync.clientFactory = function() {
+	return Ti.Network.createHTTPClient();
+};
+
+Alloy.Globals.Items = Alloy.Collections.instance("Item");
+
+function systemsCheck(aOptions) {
+	Alloy.Globals.Items.fetch({
+		success : function() {
+			Ti.API.info("systemsCheck...OK");
+			aOptions.success();
+		},
+		error : function() {
+			Ti.API.info("systemsCheck...FAIL");
+			aOptions.error();
+		}
+	});
+}
+
+systemsCheck({
+	success : function() {
+	},
+	error : function() {
+	}
+});
