@@ -1,11 +1,3 @@
-"#nav" : {
-	top: 0,
-	height: 64,
-	left: 0,
-	right: 0,
-	background: "#404040",
-}
-
 "#lblTitle" : {
 	height: 64,
 	color: "#ffffff",

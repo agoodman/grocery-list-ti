@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="itemEdit">
+		<View id="nav">
+			<View id="btnBack">
+				<Label id="lblBack">Back</Label>
+			</View>
+			<Label id="lblTitle">Edit Item</Label>
+			<View id="btnDestroy">
+				<Label id="lblDestroy">Remove Item</Label>
+			</View>
+		</View>
+		<TextField id="txtName" />
+	</Window>
+</Alloy>

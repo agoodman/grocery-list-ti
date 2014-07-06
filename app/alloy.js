@@ -1,9 +1,10 @@
 var Sync = require('serviceable/lib/serviceable');
 
-Sync.clientFactory = function() {
-	return Ti.Network.createHTTPClient();
-};
+// Sync.clientFactory = function() {
+	// return Ti.Network.createHTTPClient();
+// };
 
+Alloy.Globals.Sync = Sync;
 Alloy.Globals.Items = Alloy.Collections.instance("Item");
 
 function systemsCheck(aOptions) {

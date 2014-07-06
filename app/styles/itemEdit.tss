@@ -1,0 +1,31 @@
+"#lblTitle" : {
+	height: 64,
+	color: "#ffffff",
+}
+
+"#btnBack" : {
+	left: 0,
+	width: 64,
+}
+
+"#btnDestroy" : {
+	right: 0,
+	width: 64,
+}
+
+"#lblBack" : {
+	color: "#ffffff",
+}
+
+"#lblDestroy" : {
+	color: "#ffffff",
+}
+
+"#txtName" : {
+	top: 64,
+	height: 64,
+	left: 0,
+	right: 0,
+	color: "#404040",
+	backgroundColor: "#ffffff",
+}

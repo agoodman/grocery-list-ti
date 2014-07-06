@@ -1,0 +1,11 @@
+"Window" : {
+	backgroundColor: "#000000",
+}
+
+"#nav" : {
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 64,
+	background: "#404040",
+}

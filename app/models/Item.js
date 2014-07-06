@@ -1,14 +1,14 @@
 exports.definition = {
 	config: {
 		columns: {
-		    "push_action": "string",
-		    "local_id": "string",
-		    "remote_id": "string",
-		    "local_user_id": "string",
-		    "remote_user_id": "string",
-		    "name": "string",
-		    "created_at": "string",
-		    "updated_at": "string",
+		    "push_action": "text",
+		    "local_id": "integer primary key autoincrement",
+		    "remote_id": "integer",
+		    "local_user_id": "integer",
+		    "remote_user_id": "integer",
+		    "name": "text",
+		    "created_at": "text",
+		    "updated_at": "text",
 		},
 		adapter: {
 			type: "sql",
